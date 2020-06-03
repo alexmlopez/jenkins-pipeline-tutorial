@@ -1,9 +1,9 @@
 pipeline {
     agent any 
     stages {
-        stage('Static Analysis') {
+        stage('Static Analysis 3') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'Run the static analysis to the code June 3rd' 
             }
         }
         stage('Compile') {
